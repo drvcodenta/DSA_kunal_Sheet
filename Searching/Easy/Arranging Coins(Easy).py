@@ -1,0 +1,9 @@
+n=8
+i=1
+level=0
+while(n>0):
+    n=n-i
+    i=i+1
+    if(n>=0):
+        level=level+1
+print(level)
